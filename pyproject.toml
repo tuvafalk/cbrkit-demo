@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "cbrkit-demo"
+version = "0.1.0"
+description = "Demonstration of the cbrkit library"
+authors = ["Mirko Lenz <mirko@mirkolenz.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "cbrkit_demo" }]
+repository = "https://github.com/wi2trier/cbrkit-demo"
+
+[tool.poetry.dependencies]
+python = ">=3.11, <3.13"
+cbrkit = { version = "^0.3", extras = ["nlp", "cli"] }
+
+[tool.poetry.group.dev.dependencies]
+setuptools = "^69"
+
+[tool.ruff]
+target-version = "py311"
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
