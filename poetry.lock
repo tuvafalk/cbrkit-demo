@@ -90,13 +90,13 @@ files = [
 
 [[package]]
 name = "cbrkit"
-version = "0.5.1"
+version = "0.5.2"
 description = "Customizable Case-Based Reasoning (CBR) toolkit for Python with a built-in API and CLI."
 optional = false
 python-versions = ">=3.11,<3.13"
 files = [
-    {file = "cbrkit-0.5.1-py3-none-any.whl", hash = "sha256:db6e0d9784d8472272c8fa449eb99645eff51795b3eded9caa61fdf0d7c78fda"},
-    {file = "cbrkit-0.5.1.tar.gz", hash = "sha256:cd1792622a331fd8669fba45ddde084f32ab7df0a2f285ddc283e31376a0a6cb"},
+    {file = "cbrkit-0.5.2-py3-none-any.whl", hash = "sha256:ce7f337029ec50c66cad8cb3732ae77786f127a4833f98a5929128d01c0c6395"},
+    {file = "cbrkit-0.5.2.tar.gz", hash = "sha256:7c9dcbc12e1141eb2e36dcdc07c9b3efa843df191e6e86c80ed9276750b5fae1"},
 ]
 
 [package.dependencies]
