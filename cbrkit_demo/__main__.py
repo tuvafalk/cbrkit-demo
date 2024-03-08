@@ -14,18 +14,21 @@ def run_task(
     ],
 ):
     result = run_func()
+    print(f"Results for task '{name}':")
 
-    if result is None:
-        print(f"Task '{name}' not implemented.")
+    if not result:
+        print("Not yet implemented.")
         return
-    else:
-        print(f"Results for task '{name}':")
+
+    if len(result.intermediates) > 1:
+        for i, intermediate in enumerate(result.intermediates):
+            print(f"Retriever {i + 1} returned {len(intermediate.ranking)} cases")
 
     for rank, (case_id, sim) in enumerate(result.similarities.items()):
-        print(f"  Rank {rank + 1}: Case {case_id + 1}")
-        print(f"    Case: {casebase[case_id]}")
-        print(f"    Global similarity: {sim.value:.3f}")
-        print(f"    Local similarities: {sim.by_attribute}")
+        print(f"Rank {rank + 1}: Case {case_id + 1}")
+        print(f"  Case: {casebase[case_id]}")
+        print(f"  Global similarity: {sim.value:.3f}")
+        print(f"  Local similarities: {sim.by_attribute}")
 
 
 print(f"Query: {query}")
