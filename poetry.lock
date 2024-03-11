@@ -90,13 +90,13 @@ files = [
 
 [[package]]
 name = "cbrkit"
-version = "0.6.0"
+version = "0.6.1"
 description = "Customizable Case-Based Reasoning (CBR) toolkit for Python with a built-in API and CLI."
 optional = false
 python-versions = ">=3.11,<3.13"
 files = [
-    {file = "cbrkit-0.6.0-py3-none-any.whl", hash = "sha256:7db5d43c26cc6f8453699421f8f191bb546745c6992721da3ab0a3a3d3c25046"},
-    {file = "cbrkit-0.6.0.tar.gz", hash = "sha256:6a9226df223f560cf4f3ab5d660b6361abf17fc5c30deb9f02d3011849368fd8"},
+    {file = "cbrkit-0.6.1-py3-none-any.whl", hash = "sha256:53f32f3ceddc65b57049a9be80785c223e7840444465ef9d8419e116fbc0ef32"},
+    {file = "cbrkit-0.6.1.tar.gz", hash = "sha256:548c4a1ec4764be5bb7f9a53c43f29c4675932bcf521b93e894c021d93acb0be"},
 ]
 
 [package.dependencies]
@@ -849,13 +849,13 @@ files = [
 
 [[package]]
 name = "packaging"
-version = "23.2"
+version = "24.0"
 description = "Core utilities for Python packages"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "packaging-23.2-py3-none-any.whl", hash = "sha256:8c491190033a9af7e1d931d0b5dacc2ef47509b34dd0de67ed209b5203fc88c7"},
-    {file = "packaging-23.2.tar.gz", hash = "sha256:048fb0e9405036518eaaf48a55953c750c11e1a1b68e0dd1a9d62ed0c092cfc5"},
+    {file = "packaging-24.0-py3-none-any.whl", hash = "sha256:2ddfb553fdf02fb784c234c7ba6ccc288296ceabec964ad2eae3777778130bc5"},
+    {file = "packaging-24.0.tar.gz", hash = "sha256:eb82c5e3e56209074766e6885bb04b8c38a0c015d0a30036ebe7ece34c9989e9"},
 ]
 
 [[package]]
