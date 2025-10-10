@@ -1,8 +1,7 @@
 from collections.abc import Callable
-
 import cbrkit
 
-from cbrkit_demo.model import Car
+from cbrkit_demo.model import SnowDecisionFrame
 from cbrkit_demo.retrieval import casebase, query, run_default, run_macfac
 
 
@@ -10,7 +9,7 @@ def run_task(
     name: str,
     run_func: Callable[
         [],
-        cbrkit.retrieval.Result[int, Car, cbrkit.sim.AttributeValueSim[float]] | None,
+        cbrkit.retrieval.Result[int, SnowDecisionFrame, cbrkit.sim.AttributeValueSim[float]] | None,
     ],
 ):
     result = run_func()
