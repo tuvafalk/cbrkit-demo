@@ -4,8 +4,13 @@
 
 
 # potentially sensitive data
-snow_cases.json
-snow_type.yaml
+data/
+
+# currently junk files/work in progress
+util/
+notebooks/
+evaluation/
+similarity/
 
 ### direnv ###
 .direnv
